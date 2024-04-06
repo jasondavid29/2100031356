@@ -1,0 +1,10 @@
+{
+  "name": "saferteck",
+  "version": "1.0.0",
+  "scripts": {
+    "createFile": "curl -X POST -H \"Content-Type: application/json\" -d \"{\\\"filename\\\": \\\"example.json\\\", \\\"content\\\": \\\"{\\\\\\\"key\\\\\\\": \\\\\\\"value\\\\\\\"}\\\"}\" http://localhost:3030/createFile"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
